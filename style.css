@@ -1,0 +1,19 @@
+.divBox {
+  display: grid;
+  grid-template-columns: 50%;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.button {
+  border-radius: 10em;
+}
+.button:hover {
+  transition-duration: 0.7s;
+  background-color: lightgray;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 50%;
+}
