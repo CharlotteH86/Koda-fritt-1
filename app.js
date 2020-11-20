@@ -6,7 +6,7 @@ const reloadButton = document.querySelector(".reloadBtn");
 function createList() {
   let location = window.location.origin;
   let hrefLocation = window.location.href;
-  let portLocation = window.location.pathname;
+  let portLocation = window.location.protocol;
 
   let listArr = [portLocation, hrefLocation, location],
     listBox = document.createElement("div"),
